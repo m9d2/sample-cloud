@@ -24,6 +24,7 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
+        <spring-boot-maven-plugin.version>2.2.11.RELEASE</spring-boot-maven-plugin.version>
 
         <!-- dependency version -->
         <spring-boot.version>2.1.11.RELEASE</spring-boot.version>
@@ -81,6 +82,15 @@
     </dependencyManagement>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot-maven-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <!-- 生成源代码插件 -->
             <plugin>
