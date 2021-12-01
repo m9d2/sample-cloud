@@ -24,12 +24,12 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
-        <spring-boot-maven-plugin.version>2.2.11.RELEASE</spring-boot-maven-plugin.version>
+        <spring-boot-maven-plugin.version>2.5.7</spring-boot-maven-plugin.version>
 
         <!-- dependency version -->
-        <spring-boot.version>2.1.11.RELEASE</spring-boot.version>
-        <spring-cloud.version>Greenwich.SR4</spring-cloud.version>
-        <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
+        <spring-boot.version>2.5.7</spring-boot.version>
+        <spring-cloud.version>2020.0.3</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
         <lombok.version>1.18.22</lombok.version>
 	</properties>
 
